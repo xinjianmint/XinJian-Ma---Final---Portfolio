@@ -1,0 +1,383 @@
+* { margin: 0; padding: 0; }
+
+
+body {
+  font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+
+  }
+
+
+
+
+
+
+
+#resume-wrap {
+  background-color: white;
+  margin: 50px auto 0 auto;
+  width: 825px;
+  padding: 0 25px 0 25px;
+
+
+}
+
+
+#exed-wrap {
+
+  width: 465px;
+  float: left;
+  margin-right: 60px;
+
+
+}
+
+#skill-wrap {
+  width: 300px;
+  float: right;
+}
+
+
+
+  .clear {
+      clear: both;
+    }
+
+
+
+
+
+.category-headers {
+  color: #ef3b39;
+  font-size: .9em;
+  letter-spacing: 2px;
+  padding-top: 3em;
+  margin-bottom: .1em;
+  text-transform: uppercase;
+}
+  
+
+
+
+
+.name {
+  color: black;
+  font-size: 105px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+   line-height: 1.05em;
+
+
+}
+
+
+
+.graphic{
+  color: #ef3b39;
+  font-size: 80px;
+  letter-spacing: 0px;
+  line-height: 1.05em;
+   padding-bottom: 10px;
+
+
+}
+
+
+.contact-information{
+  font-size: 31px;
+  letter-spacing: 0px;
+  margin-bottom: 35px;
+}
+
+
+.contact-information span{
+color: #ef3b39
+}
+
+
+
+.primary-titles {
+  color: black;
+  display: inline-block;
+  font-size: .9em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.primary-titles span{ 
+  font-family: Helvetica, arial, sans-serif;
+
+}
+
+
+.place {
+  color: black;
+  display: inline-block;
+  font-size: .85em;
+  letter-spacing: 1px;
+  margin-top: 1.1em;
+  padding-left: 0.5em;
+  text-transform: uppercase;
+}
+
+.star {
+  color: #ef3b39;
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 3px;
+  margin-top: 1em;
+  padding-left: .4em;
+
+}
+
+.location {
+  color: #808284;
+  font-size: .9em;
+  font-style: italic;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: .5em;
+}
+
+
+
+
+.category-description-main {
+  color: #808284;
+  font-size: .9em;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 1em;
+}
+
+.category-description {
+  color: #808284;
+  font-size: .9em;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: .01em;
+}
+
+
+ul.square {
+  list-style-type: square;
+  color:#ef3b39;
+  font-size: .9em;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  margin-top: 0.75em;
+  }
+
+ul.square span {
+color: #808284;
+  }
+
+
+hr {
+  border: 2px dotted #808284;
+  border-style: none none dotted; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+  font-family: 'Oswald', Helvetica, arial, sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  color: white;
+}
+
+
+
+
+
+
+
+a { color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+  text-align: right;
+  margin: 40px auto 10px;
+  
+}
+
+
+
+#footer {
+  text-align: right;
+  margin: 25px 25px 10px 25px;
+  color: #808284;
+  font-size: 13px;
+}
+
+
+#footer.resume {
+  margin-top: 50px;
+  
+}
+
+
+
+#logo {
+  float: left;
+
+}
+
+
+#logo a { 
+  font-family: 'Oswald', Helvetica, arial, sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  color: black;
+  margin-left: 25px;
+
+}
+
+#logo a.home {  
+
+  color: white;
+
+
+}
+
+
+
+#logo li {
+list-style: none;
+
+}
+
+#logo li.selected a {
+  border-bottom-style: solid;
+  border-bottom-color: red;
+}
+
+
+#logo li.selected a {
+  border-bottom-style: solid;
+  border-bottom-color: red;
+}
+
+
+
+#navigation {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 0px 0px 0;
+  margin-right: 25px;
+}
+
+
+#navigation li {
+  float: right;
+  margin-left: 30px;
+}
+
+#navigation li a {
+  color: black;
+  font-family: 'Oswald', Helvetica, arial, sans-serif;
+  font-size: 18px;
+  line-height: 55px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+
+}
+
+#navigation li a.home {
+  color: white;
+
+}
+
+#navigation li.selected a {
+  border-bottom-style: solid;
+  border-bottom-color: red;
+}
+
+ 
+
+
+
+
+
+
+
+
+html.home {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/homepage-image.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+
+}
+
+
+
+
+#gallery-wrap {
+  padding: 0 25px 0 25px;
+}
