@@ -305,10 +305,7 @@ list-style: none;
 }
 
 
-#logo li.selected a {
-  border-bottom-style: solid;
-  border-bottom-color: red;
-}
+
 
 
 
