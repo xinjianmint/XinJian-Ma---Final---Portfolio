@@ -358,6 +358,7 @@ html.home {
     ),
     url(images/homepage-image.jpg);
   background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
